@@ -16,7 +16,7 @@ require_once ("initialise.php");
 		<section class="header">
 			<div class="logo">
 				<h1>
-					COMP333-14A
+					COMP333-14A 11
 					<br/>
 					ASSIGNMENT1
 				</h1>
