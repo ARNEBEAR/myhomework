@@ -1,0 +1,128 @@
+html{
+	margin: 0;
+	padding: 0;
+	color: #969696;
+	font-size: 12pt;
+	font-family: sans-serif;
+	/*border: 10px solid #969696;*/
+}
+body{
+	/*height: 93%;*/
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.logo{
+	float: left;
+	border:3px solid #969696;
+	padding: 0 50px;
+}
+#log{
+	float: right;
+}
+#log a{
+	color: #969696;
+	text-decoration: none;
+	padding:20px 40px;
+}
+#login, #register,#logout{
+	border:3px solid #969696;
+	padding:10px 0;
+	background: #e6e6e6;
+	margin-bottom: 20px;
+	transition:0.4s;
+}
+#login:hover, #register:hover,#logout:hover{
+	background: white;
+	transition:0.4s;
+}
+
+#onoffline{
+	clear: both;
+	position: absolute;
+	right: 140px;
+	top:180px;
+}
+#onoffline h2{
+	font-size: 18pt;
+}
+#online{
+	margin-bottom: 40px;
+}
+#logout {
+	margin-top: 20px;
+}
+#offline p{
+	color: #d2d2d2;
+}
+#ajax{
+	clear: both;
+	margin: 0 auto;
+	margin-top: 90px;
+}
+.loginusername input, .loginpwd input, #postmsg{
+	border: 3px solid #969696;
+	height: 30px;
+	width: 260px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	padding: 20px;
+	font-size: 12pt;
+	letter-spacing: 0.3em;
+	color: #969696;
+	outline: none;
+}
+.loginsubmit input,#send{
+	border: 3px solid #969696;
+	background: #e6e6e6;
+	color: #969696;
+	padding: 20px 60px;
+	cursor: pointer;
+	outline: none;
+	display: inline-block;
+	transition:0.4s;
+}
+.loginsubmit input:hover{
+	background: white;
+	transition:0.4s;
+}
+#registerinput,#logininput{
+	width: 400px;
+	margin: 0 auto;
+}
+#registersuccessful{
+	text-align: center;
+	clear: both;
+	line-height: 1.9em;
+	width: 30%;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+	top: 200px;
+}
+a{
+	cursor: pointer;
+}
+#postmsg{
+	margin-top: 20px;
+	width: 400px;
+}
+#send{
+	padding: 27px 60px;
+	margin-left: 20px;
+}
+#chat{
+	margin: 0 auto;
+	width: 700px;
+}
+#chatwindow{
+	border: 3px solid #969696;
+	background: #e6e6e6;
+	width: 600px;
+	height: 200px;
+	padding: 20px;
+	overflow-y: scroll;
+	line-height: 2em;
+}
