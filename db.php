@@ -1,6 +1,7 @@
 <?php
 
-      $sql_server = "127.0.0.1";
+      ///$sql_server = "127.0.0.1";
+$sql_server = "localhost";
       $db_username = "root";
       $db_password = "";
       $db_name = "login";
